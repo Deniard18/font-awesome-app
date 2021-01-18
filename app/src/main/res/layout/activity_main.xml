@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.fontawesomeapp.FontAwesomeIcon
+        android:id="@+id/fa_instagram"
+        style="@style/FaIconStyle"
+        android:text="@string/fa_instagram"
+        android:textColor="@color/red"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fa_facebook"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.example.fontawesomeapp.FontAwesomeIcon
+        android:id="@+id/fa_facebook"
+        style="@style/FaIconStyle"
+        android:text="@string/fa_facebook"
+        android:textColor="@color/blue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fa_twitter"
+        app:layout_constraintStart_toEndOf="@+id/fa_instagram" />
+
+    <com.example.fontawesomeapp.FontAwesomeIcon
+        android:id="@+id/fa_twitter"
+        style="@style/FaIconStyle"
+        android:text="@string/fa_twitter"
+        android:textColor="@color/green"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fa_linkedin"
+        app:layout_constraintStart_toEndOf="@+id/fa_facebook" />
+
+    <com.example.fontawesomeapp.FontAwesomeIcon
+        android:id="@+id/fa_linkedin"
+        style="@style/FaIconStyle"
+        android:text="@string/fa_linkedin"
+        android:textColor="@color/orange"
+        android:layout_marginRight="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fa_twitter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
