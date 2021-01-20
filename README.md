@@ -1,10 +1,10 @@
 # Font Awesome Example App
-Here you can check and use any code from completly working project - Android Font Awesome Icons Application for version 4 and 5 of Font Awesome.
+Here you can check and use any code from the completly working project - Android Font Awesome Icons Application for version 4 and 5 of Font Awesome.
 
 ![main screen](https://github.com/Deniard18/font-awesome-app/blob/master/app/src/main/res/mipmap-xxxhdpi/main_screen_exmpl.png)
 
 # Old version_4 Of Font Awesome
-File is named fa_version_4.ttf and is placed inside of res/font folder of current project.
+The file is named fa_version_4.ttf and is placed inside of res/font folder of the current project.
 
 # How to use
 For version 4 or older of Font Awesome, just copy code from FontAwesomeIconV4.kt and also copy fa_version_4.ttf to you project. And now you can use it in your project.
