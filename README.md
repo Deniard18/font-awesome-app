@@ -7,7 +7,7 @@ Here you can check and use any code from completly working project - Android Fon
 File is named fa_version_4.ttf and is placed inside of res/font folder of current project.
 
 # How to use
-For version 4 or older of Font Awesome, just copy code from FontAwesomeIconV4.kt and also copy fa_version_4 to you project. And now you can use it in your project.
+For version 4 or older of Font Awesome, just copy code from FontAwesomeIconV4.kt and also copy fa_version_4.ttf to you project. And now you can use it in your project.
 
 For version 5 or newer, download last version of Font Awesome from official website and import .ttf files to your project. Also copy FontAwesomeIconV5.kt to your project. And now you can use it in your project.
 
