@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.fontawesomeapp.FontAwesomeIcon
+    <com.example.fontawesomeapp.FontAwesomeIconV4
         android:id="@+id/fa_instagram"
         style="@style/FaIconStyle"
         android:text="@string/fa_instagram"
@@ -17,17 +17,18 @@
         app:layout_constraintEnd_toStartOf="@+id/fa_facebook"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.example.fontawesomeapp.FontAwesomeIcon
+    <com.example.fontawesomeapp.FontAwesomeIconV5
         android:id="@+id/fa_facebook"
         style="@style/FaIconStyle"
         android:text="@string/fa_facebook"
         android:textColor="@color/blue"
+        app:brand_icon="true"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fa_twitter"
         app:layout_constraintStart_toEndOf="@+id/fa_instagram" />
 
-    <com.example.fontawesomeapp.FontAwesomeIcon
+    <com.example.fontawesomeapp.FontAwesomeIconV4
         android:id="@+id/fa_twitter"
         style="@style/FaIconStyle"
         android:text="@string/fa_twitter"
@@ -37,11 +38,12 @@
         app:layout_constraintEnd_toStartOf="@+id/fa_linkedin"
         app:layout_constraintStart_toEndOf="@+id/fa_facebook" />
 
-    <com.example.fontawesomeapp.FontAwesomeIcon
+    <com.example.fontawesomeapp.FontAwesomeIconV5
         android:id="@+id/fa_linkedin"
         style="@style/FaIconStyle"
         android:text="@string/fa_linkedin"
         android:textColor="@color/orange"
+        app:brand_icon="true"
         android:layout_marginRight="32dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
